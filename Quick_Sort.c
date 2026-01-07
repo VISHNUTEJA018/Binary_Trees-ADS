@@ -8,6 +8,7 @@ void swap(int *p1,int *p2)
 }
 int partition(int a[],int n,int l,int r)
 {
+    //pivot element starts with l ,that means first element
     int p = l  ;
     while(l<r)
     {
@@ -73,3 +74,4 @@ int main()
 
     return 0;
 }
+
